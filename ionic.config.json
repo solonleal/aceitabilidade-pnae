@@ -1,0 +1,8 @@
+{
+  "name": "aceitabilidade-pnae-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "229e1af7"
+}

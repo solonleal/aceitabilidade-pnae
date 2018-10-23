@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Votação</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="card-background-page" padding>
+
+  <ion-card *ngFor="let image of images" (click)="salvar(image)">
+    <img class="img-options" [src]="image.url"/>
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,30 @@
+page-hello-ionic {
+
+    .card-background-page {
+
+        ion-card {
+          margin: 10px;
+          position: relative;
+          text-align: center;
+          float: left;
+          width: 80px;
+        }
+    
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 2.0em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff;
+        }
+      
+        .img-options {
+          border: 1px solid black;
+        } 
+    
+        .img-options:hover {
+          border: 1px solid red;
+        } 
+      }
+}
